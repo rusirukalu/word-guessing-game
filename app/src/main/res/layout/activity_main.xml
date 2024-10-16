@@ -1,0 +1,78 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#CBC3E3">
+
+    <TextView
+        android:id="@+id/timerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/guessEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Guess"
+        android:inputType="text"
+        android:layout_marginTop="25dp"
+        android:textSize="26sp"/>
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textSize="26sp"/>
+
+    <TextView
+        android:id="@+id/attemptsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Attempts: 0"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/letterButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guess Letter"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/letterCountButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Letter Count"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+
+
+    <Button
+        android:id="@+id/clueButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Clue"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score: 100"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
